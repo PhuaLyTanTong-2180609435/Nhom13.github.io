@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hồ Sơ Cá Nhân</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #b7f85d, #7cd3fb);
+            margin: 0;
+        }
+        .profile-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 380px;
+            transition: transform 0.3s;
+        }
+        .profile-card:hover {
+            transform: translateY(-10px);
+        }
+        .profile-card img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            margin-bottom: 15px;
+        }
+        .profile-card h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+        .profile-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-links a {
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            background: #667eea;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            background: #5644a3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img src="https://via.placeholder.com/130" alt="Avatar">
+        <h2>Nguyễn Văn A</h2>
+        <p>Lập trình viên Web & Designer.</p>
+        <div class="social-links">
+            <a href="https://facebook.com/yourprofile" target="_blank">F</a>
+            <a href="https://github.com/yourprofile" target="_blank">G</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">L</a>
+        </div>
+    </div>
+</body>
+</html>
